@@ -8,7 +8,7 @@ def update_driver():
     # Using ChromeAppUtils to inspect Chrome application version
     chrome_app_utils = ChromeAppUtils()
     chrome_app_version = chrome_app_utils.get_chrome_version()
-    print("Chrome application version: ", chrome_app_version)
+    print("Chrome application version:", chrome_app_version)
 
     # Target directory to store chromedriver
     driver_directory = ""
