@@ -90,7 +90,7 @@ def search_loop(account, driver):
     "Iterate until a non-zero value is returned by peakmonsters, then return value"
 
     i = 0
-    while i < 20:
+    while i < 100:
         
         time.sleep(0.2)
         
